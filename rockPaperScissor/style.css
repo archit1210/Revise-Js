@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Exo 2", serif;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.game {
+    display: flex;
+    justify-content: space-around;
+}
+
+img {
+    mix-blend-mode: inherit;
+}
+
+.players {
+    height: 200px;
+    width: 200px;
+}
+
+#playBtn {
+    position: absolute;
+    /* Position the button absolutely */
+    top: 50%;
+    /* Move to the vertical center */
+    left: 50%;
+    /* Move to the horizontal center */
+    transform: translate(-50%, -50%);
+    /* Center it precisely */
+    margin-top: 30px;
+    background-color: #FA4032;
+    font-weight: bold;
+    color: white;
+    font-size: larger;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+}
+
+#playBtn:hover {
+    opacity: 0.5;
+}
+
+.winner {
+    text-align: center;
+    /* Center text horizontally */
+    margin-top: 20px;
+    /* Add space above the div */
+    font-size: 1.5rem;
+    /* Adjust font size */
+    font-weight: bold;
+    /* Make it bold */
+    font-family: 'Exo 2', sans-serif;
+    /* Use one of the included fonts */
+}
